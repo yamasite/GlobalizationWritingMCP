@@ -1,0 +1,31 @@
+{
+  "name": "@bytedance/doc-mcp-server",
+  "version": "1.0.0",
+  "description": "A server for evaluating documentation against globalization standards.",
+  "main": "dist/doc_eval_server.js",
+  "bin": {
+    "doc-evaluation-server": "./dist/doc_eval_server.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "ts-node src/doc_eval_server.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://code.byted.org/wanglu.lutkin/doc-mcp-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4",
+    "ts-node": "^10.9.1",
+    "@types/node": "^20.12.12"
+  }
+}
