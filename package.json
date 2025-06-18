@@ -1,5 +1,5 @@
 {
-  "name": "@bytedance/doc-mcp-server",
+  "name": "@yamasite/doc-mcp-server",
   "version": "1.0.0",
   "description": "A server for evaluating documentation against globalization standards.",
   "main": "dist/doc_eval_server.js",
