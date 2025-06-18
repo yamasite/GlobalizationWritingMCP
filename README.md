@@ -17,6 +17,24 @@ To install the necessary dependencies, run the following command:
 npm install
 ```
 
+## MCP
+
+```json
+{
+  "mcpServers": {
+    "DocEvaluationServer": {
+      "command": "node",
+      "args": [
+        "--from",
+        "git+https://github.com/yamasite/GlobalizationWritingMCP",
+        "DocEvaluationServer"
+      ],
+    }
+  }
+}
+```
+
+
 ## Usage
 
 ### Build
